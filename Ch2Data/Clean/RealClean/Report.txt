@@ -1,0 +1,7 @@
+My Report  --Created by Shen on 2017-05-30 17:11:48
+2017-05-30 17:11:48: Read data from result.csv
+2017-05-30 17:11:48: drop the duplicate data
+2017-05-30 18:24:49: Read data from result.csv
+2017-05-30 18:24:50: drop the duplicate data
+2017-07-02 01:07:58: Read data from result.csv
+2017-07-02 01:07:59: drop the duplicate data
