@@ -10,8 +10,8 @@ def get_cookie_from_net():
     # 构建表单
     payload = {'source': 'None',
                'redir': 'https://www.douban.com/',
-               'form_email': '你的邮箱号',
-               'form_password': '你的密码',
+               'form_email': '1021550072@qq.com',
+               'form_password': 'pwd',
                'login': '登录'}
 
     data = s.post(url, headers=headers, data=payload, verify=True)  # 绕过了SSL验证
@@ -60,7 +60,8 @@ if __name__ == '__main__':
     # 一些全局变量
     s = requests.session()
     ua = UserAgent()
-    headers = {'User-Agent': ua.random}
+    headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWe'
+                             'bKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'}
 
     # 登录并获取数据
     login_and_getdata()

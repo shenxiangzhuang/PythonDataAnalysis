@@ -1,4 +1,4 @@
-# PythonDataAnalysis
-The data and code that used in my book.
-
-图书《Python数据分析入门————从数据获取到可视化》中使用的一些数据和代码的资料。
+### 《Python数据分析入门————从数据获取到可视化》
+这里是在书中的源码和使用的数据。
+如果大家有问题和建议，可以直接在本项目提交issue，也可以发邮件给我(datahonor@gmail.com)
+我会定期查看并尽快回复。希望本书能对大家有所帮助。
