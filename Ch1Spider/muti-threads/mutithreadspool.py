@@ -123,8 +123,8 @@ if __name__ == '__main__':
     urls = get_urls_from_file(100)
     Mynormal()  # 串行
     MyprocessPool(10)  # 进程池
-    Mymultithread(10)  # 多线程
     Myfutures(10)  # 线程池
+    Mymultithread(10)  # 多线程
 
 '''
 

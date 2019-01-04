@@ -3,7 +3,6 @@ import pickle
 from fake_useragent import UserAgent
 from bs4 import BeautifulSoup
 
-
 # 提交表单登录并获取cookie
 def get_cookie_from_net():
     url = 'https://accounts.douban.com/login'
