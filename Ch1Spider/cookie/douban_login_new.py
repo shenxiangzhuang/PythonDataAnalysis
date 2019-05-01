@@ -1,23 +1,29 @@
 import requests
 import pickle
-from fake_useragent import UserAgent
 from bs4 import BeautifulSoup
+
 
 # 提交表单登录并获取cookie
 def get_cookie_from_net():
-    url = 'https://accounts.douban.com/login'
+    url = "https://accounts.douban.com/j/mobile/login/basic"
     # 构建表单
-    payload = {'source': 'None',
-               'redir': 'https://www.douban.com/',
-               'form_email': 'your email',
-               'form_password': 'your pwd',
-               'login': '登录'}
+    payload = {
+            "ck": "",
+            "name": "your email",
+            "password": "your password",
+            "remember": "true",
+            "ticket": ""
+        }
 
-    data = s.post(url, headers=headers, data=payload, verify=True)  # 绕过了SSL验证
+    data = s.post(url, headers=headers, data=payload).json()
+    # 检测登录是否成功
+    if data["status"] == "success":
+        print("登陆成功!")
+
     with open('cookies.douban', 'wb') as f:
         cookiedict = requests.utils.dict_from_cookiejar(s.cookies)
         pickle.dump(cookiedict, f)
-    print("提交表单登录，成功获取cookies...")
+    print("成功获取cookies!")
 
     return s.cookies
 
@@ -58,9 +64,7 @@ def login_and_getdata():
 if __name__ == '__main__':
     # 一些全局变量
     s = requests.session()
-    ua = UserAgent()
-    headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWe'
-                             'bKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'}
-
+    # 这里务必更换
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1092.0 Safari/536.6"}
     # 登录并获取数据
     login_and_getdata()
