@@ -1,0 +1,8 @@
+# idea
+.idea/
+
+# cache
+**/__pycache__
+
+# cookies
+**/cookies**
