@@ -69,11 +69,11 @@ def send_report(roi):
         s2 += title
         s2 += roi[title]
         s2 += '\n'
-    send_ms(s1+s2)
+    #send_ms(s1+s2)
 
 
 if __name__=='__main__':
-    web_data = get_web_data("http://tech.baidu.com/")
+    web_data = get_web_data("https://news.baidu.com/tech")
     titles = get_titles(web_data)
     key_words = 'iPhone'
     roi = get_roi(titles, key_words)
