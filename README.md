@@ -15,7 +15,7 @@
 ## 反馈&勘误
 ### 问题反馈
 
-- Issue/Discussion: 对于代码的问题可以提交Issue，对于其他问题可以在Discussion中讨论。
+- Issue/Discussion(推荐): 对于代码的问题可以提交Issue，对于其他问题可以在Discussion中讨论。
 - Email: 也可以发邮件给我(datahonor@gmail.com)我会定期查看并尽快回复。
 
 
