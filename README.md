@@ -1,7 +1,7 @@
 # 《Python数据分析入门——从数据获取到可视化》
 
 <p align="center">
-<img src="http://download.broadview.com.cn/LargeCover/2211c4d3f7d52fea98c0" width="200" height="300" />
+<img src="http://download.broadview.com.cn/LargeCover/2211c4d3f7d52fea98c0" width="300" height="500" />
 </p>
 
 ## 概览
@@ -10,8 +10,8 @@
 希望本书能对大家有所帮助。
 
 
-## 反馈与勘误
-### 问题/反馈
+## 反馈&勘误
+### 问题反馈
 
 如果大家有问题和建议，可以直接在本项目提交issue（推荐），
 也可以发邮件给我(datahonor@gmail.com)我会定期查看并尽快回复。
