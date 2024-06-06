@@ -1,8 +1,11 @@
 # 《Python数据分析入门——从数据获取到可视化》
 
 <p align="center">
-<img src="./Asset/cover.jpeg" width="300" height="500" />
+<img src="./Asset/cover.jpeg" width="300" height="400" />
 </p>
+
+## News
+- Coming: 《写于出版6周年之后》
 
 ## 概览
 
