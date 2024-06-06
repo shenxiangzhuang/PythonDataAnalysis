@@ -1,22 +1,23 @@
 # 《Python数据分析入门——从数据获取到可视化》
 
 <p align="center">
-<img src="http://download.broadview.com.cn/LargeCover/2211c4d3f7d52fea98c0" width="300" height="500" />
+<img src="./Asset/cover.jpeg" width="300" height="500" />
 </p>
 
 ## 概览
 
-这里是本书中使用的所有源代码，数据等文件。关于本书的一些最新的进展的也会第一时间在这里公布。
+书籍[《Python数据分析入门——从数据获取到可视化》](http://www.broadview.com.cn/book/5010)
+中使用的所有源代码，数据等文件。
+关于本书的一些最新的进展的也会第一时间在这里公布。 
 希望本书能对大家有所帮助。
 
 
 ## 反馈&勘误
 ### 问题反馈
 
-如果大家有问题和建议，可以直接在本项目提交issue（推荐），
-也可以发邮件给我(datahonor@gmail.com)我会定期查看并尽快回复。
-(也有读者到[出版社](http://www.broadview.com.cn/book/5010)提交勘误的，也是可以的，不过只建议在那里提交typo相关的，
-涉及到代码还是建议在Github提issue，方便一些)。
+- Issue/Discussion: 对于代码的问题可以提交Issue，对于其他问题可以在Discussion中讨论。
+- Email: 也可以发邮件给我(datahonor@gmail.com)我会定期查看并尽快回复。
+
 
 ### 勘误
 
