@@ -1,8 +1,8 @@
 # 《Python数据分析入门——从数据获取到可视化》
 
-<div style="text-align:center">
+<p align="center">
 <img src="http://download.broadview.com.cn/LargeCover/2211c4d3f7d52fea98c0" width="200" height="300" />
-</div>
+</p>
 
 ## 概览
 
